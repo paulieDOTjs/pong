@@ -1,0 +1,9 @@
+.App {
+  width: 700px;
+  height: 500px;
+  background-color: #66339988;
+  border-radius: 4px;
+  border: 2px solid rebeccapurple;
+  position: relative;
+  margin: 20px auto;
+}

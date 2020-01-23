@@ -1,5 +1,5 @@
 import React from "react";
-import "./ball.css";
+import "./Ball.css";
 
 function Ball() {
   return <div className="ball" />;

@@ -1,8 +1,8 @@
 import React from "react";
-import "./paddle.css";
+import "./Paddle.css";
 
-function Paddle() {
-  return <div className="paddle" />;
+function Paddle({ isPlayerTwo }) {
+  return <div className={isPlayerTwo ? "paddle player2" : "paddle player1"} />;
 }
 
 export default Paddle;

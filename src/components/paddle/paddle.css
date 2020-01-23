@@ -1,6 +1,20 @@
 .paddle {
-  height: 25px;
-  width: 100px;
+  width: 16px;
+  height: 88px;
   background-color: rebeccapurple;
   border-radius: 4px;
+  border: 2px black solid;
+  position: absolute;
+  top: 0;
+}
+
+.paddle.player2 {
+  position: absolute;
+  right: 4px;
+  background-color: salmon;
+}
+
+.paddle.player1 {
+  position: absolute;
+  left: 4px;
 }
